@@ -6,7 +6,7 @@
 /*   By: diogoalv <diogoalv@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 22:33:27 by diogoalv          #+#    #+#             */
-/*   Updated: 2024/11/07 03:46:04 by diogoalv         ###   ########.fr       */
+/*   Updated: 2024/11/07 05:00:38 by diogoalv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,12 @@
 # include <unistd.h>
 # include <stdarg.h>
 
-int ft_printunnum(unsigned int i);
-int ft_printchar(char *s);
-int ft_printpnt(void *p);
-int ft_printnum(int i);
-int ft_printhexa(unsigned long n, char c);
-int ft_printf(const char *p, ...);
-int ft_printchar(char c);
+int	ft_printunnum(unsigned int i);
+int	ft_printstr(char *s);
+int	ft_printpnt(void *p);
+int	ft_printnum(int i);
+int	ft_printhexa(unsigned long n, char c);
+int	ft_printf(const char *p, ...);
+int	ft_printchar(char c);
 
 #endif

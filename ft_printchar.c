@@ -6,14 +6,14 @@
 /*   By: diogoalv <diogoalv@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 00:22:03 by diogoalv          #+#    #+#             */
-/*   Updated: 2024/11/07 03:30:01 by diogoalv         ###   ########.fr       */
+/*   Updated: 2024/11/07 04:53:36 by diogoalv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_print.h"
+#include "ft_printf.h"
 
-int ft_printchar(char c)
+int	ft_printchar(char c)
 {
-    write(1, &c, 1);
-    return (1);
+	write(1, &c, 1);
+	return (1);
 }
